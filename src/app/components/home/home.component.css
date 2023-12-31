@@ -1,0 +1,13 @@
+.results {
+    display: grid;
+    column-gap: 14px;
+    row-gap: 14px;
+    grid-template-columns: repeat(3,calc(100%/3));
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.home{
+    width: 90%;
+    margin: 0 auto;
+}

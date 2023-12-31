@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-color: #007bff;   
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+
+    --primary-color-light: #cfdfff;
+    --secondary-color-light: #d6d8db;
+    --success-color-light: #c3e6cb;
+    --danger-color-light: #f5c6cb;
+    --warning-color-light: #ffeeba;
+    --info-color-light: #bee5eb;
+    --light-color-light: #fefefe;
+    --dark-color-light: #d6d8d9;
+
+    --primary-color-dark: #0056b3;
+    --secondary-color-dark: #545b62;
+    --success-color-dark: #1e7e34;
+    --danger-color-dark: #bd2130;
+    --warning-color-dark: #d39e00;
+    --info-color-dark: #117a8b;
+    --light-color-dark: #dae0e5;
+    --dark-color-dark: #1d2124;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

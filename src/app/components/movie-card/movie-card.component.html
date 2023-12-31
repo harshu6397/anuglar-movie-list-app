@@ -1,0 +1,12 @@
+<div class="card">
+    <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/{{movieCard.poster_path}}" alt="Card image cap">
+    <div class="card-body">
+        <a [routerLink]="['/movie', movieCard.id]" class="card-title"><h5>{{movieCard.original_title}}</h5></a>
+        <p class="card-text">{{movieCard.overview}}</p>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Release date: {{movieCard.release_date}}</li>
+            <li class="list-group-item">Popularity: {{movieCard.popularity}}</li>
+            <li class="list-group-item">Vote average: {{movieCard.vote_average}}</li>
+        </ul>
+    </div>
+</div>

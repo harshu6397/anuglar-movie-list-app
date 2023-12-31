@@ -1,0 +1,435 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "The Shawshank Redemption",
+            "poster_path": "/path/to/poster1.jpg",
+            "release_date": "1994-10-14",
+            "vote_average": 9.3,
+            "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "backdrop_path": "/path/to/backdrop1.jpg",
+            "genre_ids": [
+                18
+            ],
+            "original_language": "en",
+            "original_title": "The Shawshank Redemption",
+            "popularity": 32.743,
+            "video": false,
+            "vote_count": 19000,
+            "releaseYear": 1994
+        },
+        {
+            "id": 2,
+            "title": "The Godfather",
+            "poster_path": "/path/to/poster2.jpg",
+            "release_date": "1972-03-24",
+            "vote_average": 9.2,
+            "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+            "backdrop_path": "/path/to/backdrop2.jpg",
+            "genre_ids": [
+                80
+            ],
+            "original_language": "en",
+            "original_title": "The Godfather",
+            "popularity": 30.532,
+            "video": false,
+            "vote_count": 15000,
+            "releaseYear": 1972
+        },
+        {
+            "id": 3,
+            "title": "The Dark Knight",
+            "poster_path": "/path/to/poster3.jpg",
+            "release_date": "2008-07-18",
+            "vote_average": 9.0,
+            "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
+            "backdrop_path": "/path/to/backdrop3.jpg",
+            "genre_ids": [
+                18,
+                28,
+                80,
+                53
+            ],
+            "original_language": "en",
+            "original_title": "The Dark Knight",
+            "popularity": 29.698,
+            "video": false,
+            "vote_count": 17000,
+            "releaseYear": 2008
+        },
+        {
+            "id": 4,
+            "title": "Inception",
+            "poster_path": "/inception_poster.jpg",
+            "release_date": "2010-07-16",
+            "vote_average": 8.8,
+            "overview": "A thief who enters the dreams of others to steal their secrets.",
+            "backdrop_path": "/inception_backdrop.jpg",
+            "genre_ids": [
+                28,
+                878,
+                9648
+            ],
+            "original_language": "en",
+            "original_title": "Inception",
+            "popularity": 92.5,
+            "video": true,
+            "vote_count": 2300,
+            "releaseYear": 2010
+        },
+        {
+            "id": 5,
+            "title": "Pulp Fiction",
+            "poster_path": "/pulp_fiction_poster.jpg",
+            "release_date": "1994-10-14",
+            "vote_average": 8.9,
+            "overview": "Various interconnected stories of crime and redemption in Los Angeles.",
+            "backdrop_path": "/pulp_fiction_backdrop.jpg",
+            "genre_ids": [
+                80
+            ],
+            "original_language": "en",
+            "original_title": "Pulp Fiction",
+            "popularity": 88.0,
+            "video": true,
+            "vote_count": 2100,
+            "releaseYear": 1994
+        },
+        {
+            "id": 6,
+            "title": "Forrest Gump",
+            "poster_path": "/forrest_gump_poster.jpg",
+            "release_date": "1994-07-06",
+            "vote_average": 8.8,
+            "overview": "The life of Forrest Gump, a man with a low IQ but good intentions, who witnesses and unwittingly influences several defining historical events in the 20th century.",
+            "backdrop_path": "/forrest_gump_backdrop.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10749
+            ],
+            "original_language": "en",
+            "original_title": "Forrest Gump",
+            "popularity": 85.6,
+            "video": true,
+            "vote_count": 2200,
+            "releaseYear": 1994
+        },
+        {
+            "id": 7,
+            "title": "The Matrix",
+            "poster_path": "/matrix_poster.jpg",
+            "release_date": "1999-03-31",
+            "vote_average": 8.7,
+            "overview": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+            "backdrop_path": "/matrix_backdrop.jpg",
+            "genre_ids": [
+                28,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "The Matrix",
+            "popularity": 86.4,
+            "video": true,
+            "vote_count": 2400,
+            "releaseYear": 1999
+        },
+        {
+            "id": 8,
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "poster_path": "/lotr_fellowship_poster.jpg",
+            "release_date": "2001-12-19",
+            "vote_average": 8.8,
+            "overview": "A young hobbit, Frodo Baggins, sets out to destroy the One Ring and the dark lord Sauron.",
+            "backdrop_path": "/lotr_fellowship_backdrop.jpg",
+            "genre_ids": [
+                12,
+                14,
+                28
+            ],
+            "original_language": "en",
+            "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+            "popularity": 89.1,
+            "video": false,
+            "vote_count": 2600,
+            "releaseYear": 2001
+        },
+        {
+            "id": 9,
+            "title": "Fight Club",
+            "poster_path": "/fight_club_poster.jpg",
+            "release_date": "1999-10-15",
+            "vote_average": 8.7,
+            "overview": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+            "backdrop_path": "/fight_club_backdrop.jpg",
+            "genre_ids": [
+                18
+            ],
+            "original_language": "en",
+            "original_title": "Fight Club",
+            "popularity": 87.2,
+            "video": true,
+            "vote_count": 2300,
+            "releaseYear": 1999
+        },
+        {
+            "id": 10,
+            "title": "The Lord of the Rings: The Return of the King",
+            "poster_path": "/lotr_return_poster.jpg",
+            "release_date": "2003-12-17",
+            "vote_average": 8.8,
+            "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor.",
+            "backdrop_path": "/lotr_return_backdrop.jpg",
+            "genre_ids": [
+                12,
+                14,
+                28
+            ],
+            "original_language": "en",
+            "original_title": "The Lord of the Rings: The Return of the King",
+            "popularity": 89.1,
+            "video": false,
+            "vote_count": 2500,
+            "releaseYear": 2003
+        },
+        {
+            "id": 11,
+            "title": "The Empire Strikes Back",
+            "poster_path": "/empire_strikes_back_poster.jpg",
+            "release_date": "1980-05-21",
+            "vote_average": 8.7,
+            "overview": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda.",
+            "backdrop_path": "/empire_strikes_back_backdrop.jpg",
+            "genre_ids": [
+                12,
+                28,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "The Empire Strikes Back",
+            "popularity": 87.2,
+            "video": true,
+            "vote_count": 2200,
+            "releaseYear": 1980
+        },
+        {
+            "id": 12,
+            "title": "The Grand Budapest Hotel",
+            "poster_path": "/grand_budapest_hotel_poster.jpg",
+            "release_date": "2014-03-06",
+            "vote_average": 8.1,
+            "overview": "A quirky comedy involving the theft of a priceless painting from a European hotel.",
+            "backdrop_path": "/grand_budapest_hotel_backdrop.jpg",
+            "genre_ids": [
+                35,
+                80
+            ],
+            "original_language": "en",
+            "original_title": "The Grand Budapest Hotel",
+            "popularity": 82.7,
+            "video": true,
+            "vote_count": 1800,
+            "releaseYear": 2014
+        },
+        {
+            "id": 13,
+            "title": "The Dark Knight Rises",
+            "poster_path": "/dark_knight_rises_poster.jpg",
+            "release_date": "2012-07-20",
+            "vote_average": 8.4,
+            "overview": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from a new threat.",
+            "backdrop_path": "/dark_knight_rises_backdrop.jpg",
+            "genre_ids": [
+                28,
+                80,
+                18,
+                53
+            ],
+            "original_language": "en",
+            "original_title": "The Dark Knight Rises",
+            "popularity": 87.9,
+            "video": true,
+            "vote_count": 2400,
+            "releaseYear": 2012
+        },
+        {
+            "id": 14,
+            "title": "Interstellar",
+            "poster_path": "/interstellar_poster.jpg",
+            "release_date": "2014-11-05",
+            "vote_average": 8.6,
+            "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+            "backdrop_path": "/interstellar_backdrop.jpg",
+            "genre_ids": [
+                12,
+                18,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "Interstellar",
+            "popularity": 88.8,
+            "video": true,
+            "vote_count": 2500,
+            "releaseYear": 2014
+        },
+        {
+            "id": 15,
+            "title": "Titanic",
+            "poster_path": "/titanic_poster.jpg",
+            "release_date": "1997-12-19",
+            "vote_average": 7.8,
+            "overview": "A love story that blooms aboard the ill-fated R.M.S. Titanic during its maiden voyage.",
+            "backdrop_path": "/titanic_backdrop.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "original_language": "en",
+            "original_title": "Titanic",
+            "popularity": 84.2,
+            "video": true,
+            "vote_count": 1800,
+            "releaseYear": 1997
+        },
+        {
+            "id": 16,
+            "title": "The Avengers",
+            "poster_path": "/avengers_poster.jpg",
+            "release_date": "2012-05-04",
+            "vote_average": 8.0,
+            "overview": "Earth's mightiest heroes must come together and learn to fight as a team to stop the mischievous Loki and his alien army from enslaving humanity.",
+            "backdrop_path": "/avengers_backdrop.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "The Avengers",
+            "popularity": 88.6,
+            "video": true,
+            "vote_count": 2100,
+            "releaseYear": 2012
+        },
+        {
+            "id": 17,
+            "title": "Thor",
+            "poster_path": "/thor_poster.jpg",
+            "release_date": "2011-04-21",
+            "vote_average": 7.0,
+            "overview": "The powerful but arrogant god Thor is cast out of Asgard and forced to live among humans on Earth, where he learns what it means to be a true hero.",
+            "backdrop_path": "/thor_backdrop.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "original_language": "en",
+            "original_title": "Thor",
+            "popularity": 80.4,
+            "video": true,
+            "vote_count": 1500,
+            "releaseYear": 2011
+        },
+        {
+            "id": 18,
+            "title": "Lucy",
+            "poster_path": "/lucy_poster.jpg",
+            "release_date": "2014-07-25",
+            "vote_average": 6.4,
+            "overview": "A woman gains superpowers after a drug accidentally enters her system, and she uses her newfound abilities to unlock the full potential of the human mind.",
+            "backdrop_path": "/lucy_backdrop.jpg",
+            "genre_ids": [
+                28,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "Lucy",
+            "popularity": 76.8,
+            "video": true,
+            "vote_count": 1200,
+            "releaseYear": 2014
+        },
+        {
+            "id": 19,
+            "title": "Ghost Rider",
+            "poster_path": "/ghost_rider_poster.jpg",
+            "release_date": "2007-02-16",
+            "vote_average": 5.2,
+            "overview": "Stunt motorcyclist Johnny Blaze makes a deal with the devil to save his father, but the deal transforms him into the fiery Ghost Rider.",
+            "backdrop_path": "/ghost_rider_backdrop.jpg",
+            "genre_ids": [
+                14,
+                28,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "Ghost Rider",
+            "popularity": 68.1,
+            "video": true,
+            "vote_count": 900,
+            "releaseYear": 2007
+        },
+        {
+            "id": 20,
+            "title": "Superman",
+            "poster_path": "/superman_poster.jpg",
+            "release_date": "1978-12-10",
+            "vote_average": 7.3,
+            "overview": "The last son of the planet Krypton, Kal-El, is sent to Earth and becomes the superhero Superman, using his powers to protect the world from evil forces.",
+            "backdrop_path": "/superman_backdrop.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "Superman",
+            "popularity": 78.5,
+            "video": true,
+            "vote_count": 1100,
+            "releaseYear": 1978
+        },
+        {
+            "id": 21,
+            "title": "Batman Begins",
+            "poster_path": "/batman_begins_poster.jpg",
+            "release_date": "2005-06-15",
+            "vote_average": 8.2,
+            "overview": "After training with his mentor, Bruce Wayne becomes Batman and sets out to fight crime in Gotham City.",
+            "backdrop_path": "/batman_begins_backdrop.jpg",
+            "genre_ids": [
+                28,
+                80,
+                18
+            ],
+            "original_language": "en",
+            "original_title": "Batman Begins",
+            "popularity": 84.7,
+            "video": true,
+            "vote_count": 2200,
+            "releaseYear": 2005
+        },
+        {
+            "id": 22,
+            "title": "Iron Man",
+            "poster_path": "/iron_man_poster.jpg",
+            "release_date": "2008-04-30",
+            "vote_average": 7.9,
+            "overview": "Tony Stark builds a powered exoskeleton and becomes the technologically advanced superhero Iron Man.",
+            "backdrop_path": "/iron_man_backdrop.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "original_language": "en",
+            "original_title": "Iron Man",
+            "popularity": 82.3,
+            "video": true,
+            "vote_count": 1800,
+            "releaseYear": 2008
+        }
+    ]
+}

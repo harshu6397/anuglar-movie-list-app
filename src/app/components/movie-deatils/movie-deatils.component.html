@@ -1,0 +1,28 @@
+<div class="movie-container">
+    <div class="movie-header">
+        <img class="movie-poster" src="https://image.tmdb.org/t/p/w1280/{{singleMovieCard?.poster_path}}" alt="Aquaman and the Lost Kingdom Poster">
+        <h1 class="movie-title">{{singleMovieCard?.original_title}}</h1>
+        <div class="tagline">{{singleMovieCard?.tagline}}</div>
+    </div>
+
+    <div class="movie-details">
+        <h2>Overview</h2>
+        <p>{{singleMovieCard?.overview}}</p>
+
+        <h2>Details</h2>
+        <p>Release Date: {{singleMovieCard?.release_date}}</p>
+        <p>Runtime:{{singleMovieCard?.runtime}} minutes</p>
+        <p>Genres: {{singleMovieCard?.genres?.[0]?.name}}, {{singleMovieCard?.genres?.[1]?.name}}</p>
+
+        <div class="production-companies">
+            <h2>Production Companies</h2>
+            {{singleMovieCard?.production_companies?.[0]?.name}}, {{singleMovieCard?.production_companies?.[1]?.name}}
+        </div>
+
+        <div class="vote-info">
+            <h2>Vote Information</h2>
+            <p>Vote Average: {{singleMovieCard?.vote_average}}</p>
+            <p>Vote Count: {{singleMovieCard?.vote_count}}</p>
+        </div>
+    </div>
+</div>
